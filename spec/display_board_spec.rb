@@ -7,7 +7,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       output = capture_puts{ display_board(board) }
       rows = output.split("\n")
-
+      byebug
       expect(rows[0]).to eq("   |   |   ")
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq("   |   |   ")
