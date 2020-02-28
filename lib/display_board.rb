@@ -8,4 +8,4 @@ def display_board(board)
 end
 
 # display_board(board)
-def board = [" "," "," "," "," "," "," "," "," "]
+# def board = [" "," "," "," "," "," "," "," "," "]
