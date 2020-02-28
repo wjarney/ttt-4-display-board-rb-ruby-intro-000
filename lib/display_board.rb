@@ -7,7 +7,5 @@ def display_board(board)
 
 end
 
-def board(num)
-end
 # display_board(board)
 # def board = [" "," "," "," "," "," "," "," "," "]
