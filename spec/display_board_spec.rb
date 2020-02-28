@@ -1,5 +1,5 @@
 require_relative"../lib/display_board.rb"
-require "byebug"
+require byebug
 
 describe "#display_board in 'lib/display_board.rb" do
   context 'various game situations' do
