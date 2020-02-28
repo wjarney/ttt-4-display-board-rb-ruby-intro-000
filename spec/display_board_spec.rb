@@ -1,5 +1,5 @@
 require_relative"../lib/display_board.rb"
-require byebug
+require "pry"
 
 describe "#display_board in 'lib/display_board.rb" do
   context 'various game situations' do
@@ -8,7 +8,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       output = capture_puts{ display_board(board) }
       rows = output.split("\n")
-      byebug
+      binding.pry
       expect(rows[0]).to eq("   |   |   ")
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq("   |   |   ")
